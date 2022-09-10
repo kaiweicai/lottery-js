@@ -8,8 +8,9 @@ type Props={
 function Header({isAccountVisible}:Props){
     return(
         <header className={styles.header}>
+            <label>abcd</label>
             <Logo/>
-            {isAccountVisible }
+            {/* {isAccountVisible } */}
         </header>
     );
 }
